@@ -1,19 +1,20 @@
 package com.shy.jdk.code;
 
-import java.util.Scanner;
-
 /**
  * @author shihaoyan
  * @date 2022/9/1 22:04
  * @since 1.0.0
  */
 public class Main {
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int beichushu = sc.nextInt();
-        int chushu = sc.nextInt();
-        int num = test01(beichushu, chushu);
-        System.out.println(num);
+        Dict<String, String> dict = new Dict<>();
+        dict.set("abc", "123");
+        dict.set("def", "456");
+        dict.set("ghi", "789");
+        dict.set("jkl", "102");
+        dict.set("mln", "213");
+        dict.set("asd", "234");
     }
 
     public static int test01(int beichushu, int chushu) {

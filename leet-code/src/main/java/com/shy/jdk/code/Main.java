@@ -8,6 +8,9 @@ package com.shy.jdk.code;
 public class Main {
 
     public static void main(String[] args) {
+
+        LinkNode head = LinkTable.insertNode(LinkNode.builder().data(0).build(), LinkNode.builder().data(1).build());
+        LinkTable.printf(head);
         Dict<String, String> dict = new Dict<>();
         dict.set("abc", "123");
         dict.set("def", "456");
@@ -17,13 +20,6 @@ public class Main {
         dict.set("asd", "234");
     }
 
-    public static int test01(int beichushu, int chushu) {
-        int temp = beichushu;
-        int num = 0;
-        while (temp >= chushu) {
-            num++;
-            temp -= chushu;
-        }
-        return num;
+
     }
 }

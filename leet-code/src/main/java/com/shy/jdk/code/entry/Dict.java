@@ -1,5 +1,7 @@
-package com.shy.jdk.code;
+package com.shy.jdk.code.entry;
 
+import com.shy.jdk.code.DictType;
+import com.shy.jdk.code.StringDictType;
 import lombok.Data;
 
 import java.util.Objects;

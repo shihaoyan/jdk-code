@@ -1,5 +1,7 @@
 package com.shy.jdk.code;
 
+import com.shy.jdk.code.entry.Dict;
+
 /**
  * @author shihaoyan
  * @date 2022/9/1 22:04
@@ -20,6 +22,4 @@ public class Main {
         dict.set("asd", "234");
     }
 
-
-    }
 }

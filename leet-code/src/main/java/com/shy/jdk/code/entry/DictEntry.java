@@ -1,4 +1,4 @@
-package com.shy.jdk.code;
+package com.shy.jdk.code.entry;
 
 import lombok.Data;
 
